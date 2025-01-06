@@ -2,9 +2,11 @@
 import SpecialButton from "./SpecialButton";
 import Button from "./Button";
 
-export default function InputButtons() {
+export default function InputButtons({ handleUpdate }) {
+  const data = {}
   function handleOperand(operand) {
     console.log(operand);
+    handleUpdate({ current: { ...(current) => current + operand } });
   }
   function handleOperator(operator) {
     console.log(operator);
