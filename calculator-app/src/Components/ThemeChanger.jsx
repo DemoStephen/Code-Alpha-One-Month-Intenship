@@ -2,10 +2,10 @@ import Theme from "./Theme";
 
 export default function ThemeChanger() {
   return (
-    <form>
-      <p>THEME</p>
+    <form className="flex items-end gap-4">
+      <p className="text-sm">THEME</p>
       <fieldset>
-        <div>
+        <div className="flex text-xs">
           <span>1</span>
           <span>2</span>
           <span>3</span>

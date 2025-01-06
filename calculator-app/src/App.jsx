@@ -8,14 +8,12 @@ export default function App() {
     currentValues: "0",
     previousValues: "0",
   });
-  function handleValues(newValue) {
-    setValues(newValue);
-  }
+
   return (
-    <main>
+    <main className="rounded-lg px-5 py-8 bg-[#3a4764] flex flex-col gap-4 w-11/12 md:w-[25rem]">
       <Navigation />
       <ResultScreen output={values} />
-      <InputButtons handleValues={handleValues} />
+      <InputButtons />
     </main>
   );
 }

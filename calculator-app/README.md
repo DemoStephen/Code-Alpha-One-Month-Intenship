@@ -1,4 +1,4 @@
-# CALCULATOR APP CHALLENGE ON CODE ALPHA ONE MONTH INTERNSHIP PROGRAM
+# CALCULATOR APP CHALLENGE FOR CODE ALPHA ONE MONTH INTERNSHIP PROGRAM
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here to check my source code](https://github.com/DemoStephen/Code-Alpha-One-Month-Intenship/calculator-app)
+- Solution URL: [Click Here to check my source code](https://github.com/DemoStephen/Code-Alpha-One-Month-Intenship/tree/main/calculator-app)
 - Live Site URL: [Click here to see the live demo](https://github.com/DemoStephen/Code-Alpha-One-Month-Intenship/)
 
 ## My process
@@ -46,4 +46,5 @@ Users should be able to:
 ## Author
 
 - Website - [Click here to check learn more about me](https://codewithstephen.vercel.app)
-- Twitter - [@codewithstephen](https://www.twitter.com/codewithstephen)
+- Twitter - [@codewithstephen](https://x.com/codewithstephen/)
+- Facebook - [@Stephen Adewale Nifemi](https://web.facebook.com/Inventorstephen/)
