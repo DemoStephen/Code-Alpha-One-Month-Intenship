@@ -13,14 +13,16 @@ export default function App() {
     if (data.operator)
       setValues((prev) => ({
         ...prev,
-        current: data.current,
-        previous: data.previous,
+        current: "0",
+        previous: data.previous + data.operator,
+        operator: data.operator,
       }));
     else {
       setValues((prev) => ({
         ...prev,
         current: data.current,
-        previous: "",
+        previous: data.previous,
+        operator: data.operator,
       }));
     }
   }

@@ -7,15 +7,27 @@ export default function InputButtons({ handleUpdate, values }) {
     console.log(operand);
     handleUpdate({
       ...values,
-      previous: values.current + operand,
-      current: values.previous,
+      previous: values.previous + operand,
+      current: values.current,
     });
   }
   function handleOperator(operator) {
     console.log(operator);
   }
-  function handleDelete() {}
-  function handleReset() {}
+  function handleDelete() {
+    console.log(values);
+    handleUpdate({
+      ...values,
+      // current: values.current.pop(),
+    });
+  }
+  function handleReset() {
+    handleUpdate({
+      current: "0",
+      previous: "0",
+      operator: undefined,
+    });
+  }
   function handleEqual() {}
   return (
     <form className="text-3xl grid gap-3 grid-cols-4 bg-[#232c43] p-4 rounded-md">
